@@ -1,0 +1,610 @@
+report_date,hours,phase,activity_code,activity,group
+11/04/2020,3.0,Intermediate Drilling,Other,other,flat
+11/04/2020,7.0,Intermediate Casing,Test B.O.P.,bop_test_nipple_up,flat
+11/04/2020,1.0,Intermediate Casing,Test B.O.P.,bop_test_nipple_up,flat
+11/04/2020,1.0,Intermediate Casing,Cut off Drill Line,slip_and_cut,flat
+11/04/2020,5.0,Intermediate Casing,Dir Work,directional_work,flat
+11/04/2020,1.5,Intermediate Casing,Trips,trips,tripping
+11/04/2020,3.0,Intermediate Casing,Drilling,drilling_on_bottom,drilling
+11/04/2020,2.5,Intermediate Casing,Trips,trips,tripping
+11/13/2020,7.0,Intermediate Casing,Cond Mud & Circ,circulate_condition_mud,flat
+11/13/2020,6.0,Intermediate Casing,Run Csg & Cement,run_casing_cement,casing_cementing
+11/13/2020,8.0,Intermediate Casing,Wait on Cement,run_casing_cement,casing_cementing
+11/13/2020,3.0,Intermediate Casing,Wait on Cement,run_casing_cement,casing_cementing
+11/15/2020,5.0,Production Drilling,Test B.O.P.,bop_test_nipple_up,flat
+11/15/2020,0.5,Production Drilling,Trips,trips,tripping
+11/15/2020,6.0,Production Drilling,Other,other,flat
+11/15/2020,0.5,Production Drilling,Trips,trips,tripping
+11/15/2020,2.0,Production Drilling,Trips,trips,tripping
+11/15/2020,0.5,Production Drilling,Other,other,flat
+11/15/2020,3.5,Production Drilling,Dir Work,directional_work,flat
+11/15/2020,2.0,Production Drilling,Trips,trips,tripping
+11/15/2020,2.0,Production Drilling,Other,other,flat
+11/15/2020,2.0,Production Drilling,Drilling,drilling_on_bottom,drilling
+11/17/2020,7.5,Production Drilling,Drilling,drilling_on_bottom,drilling
+11/17/2020,2.5,Production Drilling,Trips,trips,tripping
+11/17/2020,3.5,Production Drilling,Cut off Drill Line,slip_and_cut,flat
+11/17/2020,2.5,Production Drilling,Trips,trips,tripping
+11/17/2020,8.0,Production Drilling,Wire Line Logs,logging,logging
+11/19/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+11/19/2020,1.0,Production Drilling,Trips,trips,tripping
+11/19/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+11/19/2020,3.5,Production Drilling,Coring,coring,flat
+11/19/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+11/19/2020,1.0,Production Drilling,Trips,trips,tripping
+11/19/2020,3.0,Production Drilling,Other,other,flat
+11/19/2020,3.5,Production Drilling,Trips,trips,tripping
+11/19/2020,4.0,Production Drilling,Trips,trips,tripping
+11/19/2020,6.5,Production Drilling,Other,other,flat
+11/22/2020,10.0,Production Drilling,Drilling,drilling_on_bottom,drilling
+11/22/2020,3.0,Production Drilling,Trips,trips,tripping
+11/22/2020,1.5,Production Drilling,Trips,trips,tripping
+11/22/2020,1.5,Production Drilling,Other,other,flat
+11/22/2020,2.5,Production Drilling,Trips,trips,tripping
+11/22/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+11/22/2020,4.5,Production Drilling,Coring,coring,flat
+11/24/2020,3.0,Production Drilling,Drilling,drilling_on_bottom,drilling
+11/24/2020,4.5,Production Drilling,Trips,trips,tripping
+11/24/2020,1.0,Production Drilling,Trips,trips,tripping
+11/24/2020,1.0,Production Drilling,Rig Service,rig_service,flat
+11/24/2020,3.5,Production Drilling,Other,other,flat
+11/24/2020,8.0,Production Drilling,Trips,trips,tripping
+11/24/2020,3.0,?,?,unparsed,flat
+11/30/2020,3.5,Production Drilling,Drilling,drilling_on_bottom,drilling
+11/30/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+11/30/2020,2.0,Production Drilling,Trips,trips,tripping
+11/30/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+11/30/2020,4.0,Production Drilling,Trips,trips,tripping
+11/30/2020,1.5,Production Drilling,Dir Work,directional_work,flat
+11/30/2020,0.5,Production Drilling,Lubricate Rig,rig_service,flat
+11/30/2020,2.5,Production Drilling,Trips,trips,tripping
+11/30/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+11/30/2020,0.5,Production Drilling,Trips,trips,tripping
+11/30/2020,7.0,Production Drilling,Reaming,reaming,flat
+12/01/2020,11.0,Production Drilling,Reaming,reaming,flat
+12/01/2020,0.5,Production Drilling,Lubricate Rig,rig_service,flat
+12/01/2020,3.0,Production Drilling,Reaming,reaming,flat
+12/01/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/01/2020,2.0,Production Drilling,Trips,trips,tripping
+12/01/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/01/2020,4.5,Production Drilling,Trips,trips,tripping
+12/01/2020,2.0,Production Drilling,Trips,trips,tripping
+12/14/2020,1.0,Production Drilling,Trips,trips,tripping
+12/14/2020,1.5,Production Drilling,Trips,trips,tripping
+12/14/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/14/2020,0.5,Production Drilling,Trips,trips,tripping
+12/14/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/14/2020,1.5,Production Drilling,Trips,trips,tripping
+12/14/2020,6.0,Production Drilling,Drilling,drilling_on_bottom,drilling
+12/14/2020,0.5,Production Drilling,Other,other,flat
+12/14/2020,1.5,Production Drilling,Repair Rig,rig_repair,flat
+12/14/2020,7.0,Production Drilling,Drilling,drilling_on_bottom,drilling
+12/14/2020,1.0,Production Drilling,Repair Rig,rig_repair,flat
+12/14/2020,2.0,Production Drilling,Drilling,drilling_on_bottom,drilling
+12/21/2020,3.0,Production Drilling,Trips,trips,tripping
+12/21/2020,1.5,Production Drilling,Trips,trips,tripping
+12/21/2020,1.0,Production Drilling,Trips,trips,tripping
+12/21/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/21/2020,1.5,Production Drilling,Trips,trips,tripping
+12/21/2020,2.0,Production Drilling,Reaming,reaming,flat
+12/21/2020,4.5,Production Drilling,Trips,trips,tripping
+12/21/2020,1.5,Production Drilling,Trips,trips,tripping
+12/21/2020,1.5,Production Drilling,Trips,trips,tripping
+12/21/2020,1.0,Production Drilling,Cut off Drill Line,slip_and_cut,flat
+12/21/2020,1.0,Production Drilling,Trips,trips,tripping
+12/21/2020,5.0,Production Drilling,Reaming,reaming,flat
+12/02/2020,3.0,Production Drilling,Trips,trips,tripping
+12/02/2020,2.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/02/2020,5.0,Production Drilling,Trips,trips,tripping
+12/02/2020,2.0,Production Drilling,Trips,trips,tripping
+12/02/2020,1.0,Production Drilling,Cut off Drill Line,slip_and_cut,flat
+12/02/2020,1.0,Production Drilling,Trips,trips,tripping
+12/02/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/02/2020,3.0,Production Drilling,Trips,trips,tripping
+12/02/2020,5.5,Production Drilling,Wire Line Logs,logging,logging
+01/01/2021,1.5,Production Casing,Run Csg & Cement,run_casing_cement,casing_cementing
+01/01/2021,1.0,Production Casing,Run Csg & Cement,run_casing_cement,casing_cementing
+01/01/2021,1.0,Production Casing,Run Csg & Cement,run_casing_cement,casing_cementing
+01/01/2021,6.0,Production Casing,Run Csg & Cement,run_casing_cement,casing_cementing
+01/01/2021,4.5,Production Casing,Cond Mud & Circ,circulate_condition_mud,flat
+01/01/2021,2.0,Production Casing,Run Csg & Cement,run_casing_cement,casing_cementing
+01/01/2021,6.0,Production Casing,Trips,trips,tripping
+01/01/2021,1.0,Production Casing,Cut off Drill Line,slip_and_cut,flat
+01/01/2021,1.0,Production Casing,Run Csg & Cement,run_casing_cement,casing_cementing
+01/02/2021,1.5,Production Drilling,Other,other,flat
+01/02/2021,3.0,Production Drilling,Other,other,flat
+01/02/2021,8.0,Production Drilling,Run Csg & Cement,run_casing_cement,casing_cementing
+01/02/2021,1.0,Production Drilling,Run Csg & Cement,run_casing_cement,casing_cementing
+01/02/2021,10.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+01/03/2021,10.0,Production Casing,Cond Mud & Circ,circulate_condition_mud,flat
+01/03/2021,5.5,Production Casing,Run Csg & Cement,run_casing_cement,casing_cementing
+01/03/2021,8.5,Production Casing,Wait on Cement,run_casing_cement,casing_cementing
+10/22/2020,1.0,Rig Move In,No Activity.,other,flat
+10/22/2020,0.5,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/22/2020,9.5,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/22/2020,13.0,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/23/2020,1.0,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/23/2020,0.5,Rig Move In,Other,other,flat
+10/23/2020,9.5,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/23/2020,13.0,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/24/2020,1.0,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/24/2020,0.5,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/24/2020,10.5,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/24/2020,12.0,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/25/2020,1.0,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/25/2020,0.5,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/25/2020,12.5,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/25/2020,10.0,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/26/2020,1.0,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/26/2020,0.5,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/26/2020,12.0,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/26/2020,10.5,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/27/2020,1.0,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/27/2020,0.5,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/27/2020,12.0,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/27/2020,10.5,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/28/2020,1.0,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/28/2020,0.5,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/28/2020,10.5,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/28/2020,12.0,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/29/2020,6.0,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/29/2020,5.0,Rig Move In,Other,other,flat
+10/29/2020,1.0,Rig Move In,Other,other,flat
+10/29/2020,12.0,Rig Move In,Rig Up & Tear Down,rig_up_tear_down,flat
+10/30/2020,0.5,Surface Drilling,Other,other,flat
+10/30/2020,7.0,Surface Drilling,Other,other,flat
+10/30/2020,1.0,Surface Drilling,Other,other,flat
+10/30/2020,1.5,Surface Drilling,Other,other,flat
+10/30/2020,0.5,Surface Drilling,Other,other,flat
+10/30/2020,3.0,Surface Drilling,Trips,trips,tripping
+10/30/2020,6.0,Surface Drilling,Repair Rig,rig_repair,flat
+10/30/2020,1.0,Surface Drilling,Dir Work,directional_work,flat
+10/30/2020,1.5,Surface Drilling,Tighten turn buckles on conductor and flowline,other,flat
+10/30/2020,0.5,Surface Drilling,Other,other,flat
+10/30/2020,1.5,Surface Drilling,Rig Up & Tear Down,rig_up_tear_down,flat
+10/31/2020,0.5,Surface Drilling,Other,other,flat
+10/31/2020,0.5,Surface Drilling,Other,other,flat
+10/31/2020,1.5,Surface Drilling,Drilling,drilling_on_bottom,drilling
+10/31/2020,3.5,Surface Drilling,Drilling,drilling_on_bottom,drilling
+10/31/2020,2.0,Surface Drilling,Other,other,flat
+10/31/2020,2.5,Surface Drilling,Drilling,drilling_on_bottom,drilling
+10/31/2020,1.0,Surface Drilling,Rig Service,rig_service,flat
+10/31/2020,0.5,Surface Drilling,Drilling,drilling_on_bottom,drilling
+10/31/2020,4.0,Surface Drilling,Drilling,drilling_on_bottom,drilling
+10/31/2020,1.0,Surface Drilling,Other,other,flat
+10/31/2020,5.5,Surface Drilling,Drilling,drilling_on_bottom,drilling
+10/31/2020,1.0,Surface Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+10/31/2020,0.5,Surface Drilling,Trips,trips,tripping
+11/01/2020,7.5,Surface Drilling,Trips,trips,tripping
+11/01/2020,1.0,Surface Casing,Other,other,flat
+11/01/2020,3.5,Surface Casing,Run Csg & Cement,run_casing_cement,casing_cementing
+11/01/2020,1.5,Surface Casing,Cond Mud & Circ,circulate_condition_mud,flat
+11/01/2020,0.5,Surface Casing,Other,other,flat
+11/01/2020,2.0,Surface Casing,Run Csg & Cement,run_casing_cement,casing_cementing
+11/01/2020,3.0,Surface Casing,Run Csg & Cement,run_casing_cement,casing_cementing
+11/01/2020,5.0,Surface Casing,Other,other,flat
+11/02/2020,1.0,Surface Casing,Other,other,flat
+11/02/2020,1.5,Surface Casing,Nipple Up B.O.P.,bop_test_nipple_up,flat
+11/02/2020,5.5,Surface Casing,Nipple Up B.O.P.,bop_test_nipple_up,flat
+11/02/2020,4.0,Surface Casing,Nipple Up B.O.P.,bop_test_nipple_up,flat
+11/02/2020,12.0,Surface Casing,Nipple Up B.O.P.,bop_test_nipple_up,flat
+11/03/2020,12.0,Intermediate Drilling,Nipple Up B.O.P.,bop_test_nipple_up,flat
+11/03/2020,12.0,Intermediate Drilling,Nipple Up B.O.P.,bop_test_nipple_up,flat
+11/05/2020,0.5,Intermediate Drilling,Trips,trips,tripping
+11/05/2020,2.0,Intermediate Drilling,Trips,trips,tripping
+11/05/2020,0.5,Intermediate Drilling,Drilling,drilling_on_bottom,drilling
+11/05/2020,0.5,Intermediate Drilling,Other,other,flat
+11/05/2020,1.5,Intermediate Drilling,Trips,trips,tripping
+11/05/2020,5.0,Intermediate Drilling,Trips,trips,tripping
+11/05/2020,0.5,Intermediate Drilling,Other,other,flat
+11/05/2020,0.5,Intermediate Drilling,Drilling,drilling_on_bottom,drilling
+11/05/2020,1.0,Intermediate Drilling,Drilling,drilling_on_bottom,drilling
+11/05/2020,10.0,Intermediate Drilling,Drilling,drilling_on_bottom,drilling
+11/05/2020,2.0,?,?,unparsed,flat
+11/06/2020,12.0,Intermediate Drilling,Drilling,drilling_on_bottom,drilling
+11/06/2020,1.5,Intermediate Drilling,Coring,coring,flat
+11/06/2020,2.5,Intermediate Drilling,Drilling,drilling_on_bottom,drilling
+11/06/2020,2.0,Intermediate Drilling,Drilling,drilling_on_bottom,drilling
+11/06/2020,3.5,Intermediate Drilling,Drilling,drilling_on_bottom,drilling
+11/06/2020,1.0,?,?,unparsed,flat
+11/06/2020,1.5,Intermediate Drilling,Drilling,drilling_on_bottom,drilling
+11/07/2020,5.0,Intermediate Drilling,Drilling,drilling_on_bottom,drilling
+11/07/2020,4.0,Intermediate Drilling,Drilling,drilling_on_bottom,drilling
+11/07/2020,3.0,Intermediate Drilling,Drilling,drilling_on_bottom,drilling
+11/07/2020,6.0,?,?,unparsed,flat
+11/07/2020,6.0,Intermediate Drilling,Drilling,drilling_on_bottom,drilling
+11/08/2020,6.0,Intermediate Drilling,Trips,trips,tripping
+11/08/2020,4.0,Intermediate Drilling,Dir Work,directional_work,flat
+11/08/2020,2.0,Intermediate Drilling,Drilling,drilling_on_bottom,drilling
+11/08/2020,6.0,Intermediate Casing,Drilling,drilling_on_bottom,drilling
+11/08/2020,0.5,Intermediate Drilling,Lubricate Rig,rig_service,flat
+11/08/2020,5.5,Intermediate Drilling,Drilling,drilling_on_bottom,drilling
+11/09/2020,8.5,Intermediate Drilling,Drilling,drilling_on_bottom,drilling
+11/09/2020,0.5,Intermediate Drilling,Lubricate Rig,rig_service,flat
+11/09/2020,0.5,Intermediate Drilling,Drilling,drilling_on_bottom,drilling
+11/09/2020,0.5,Intermediate Drilling,Other,other,flat
+11/09/2020,2.0,Intermediate Drilling,Drilling,drilling_on_bottom,drilling
+11/09/2020,5.0,Intermediate Drilling,Drilling,drilling_on_bottom,drilling
+11/09/2020,0.5,Intermediate Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+11/09/2020,5.0,Intermediate Drilling,Trips,trips,tripping
+11/09/2020,1.5,Intermediate Drilling,Trips,trips,tripping
+11/10/2020,4.0,Intermediate Drilling,Trips,trips,tripping
+11/10/2020,8.0,Intermediate Drilling,Repair Rig,rig_repair,flat
+11/10/2020,2.0,Intermediate Drilling,Repair Rig,rig_repair,flat
+11/10/2020,2.5,Intermediate Drilling,Trips,trips,tripping
+11/10/2020,7.5,Intermediate Drilling,Drilling,drilling_on_bottom,drilling
+11/11/2020,9.0,Intermediate Drilling,Drilling,drilling_on_bottom,drilling
+11/11/2020,4.0,Intermediate Drilling,Trips,trips,tripping
+11/11/2020,2.5,Intermediate Drilling,Trips,trips,tripping
+11/11/2020,6.5,Intermediate Drilling,Trips,trips,tripping
+11/11/2020,2.0,Intermediate Drilling,Repair Rig,rig_repair,flat
+11/12/2020,4.5,Intermediate Drilling,Other,other,flat
+11/12/2020,3.5,Intermediate Drilling,Trips,trips,tripping
+11/12/2020,1.0,Intermediate Drilling,Other,other,flat
+11/12/2020,5.0,Intermediate Drilling,Trips,trips,tripping
+11/12/2020,0.5,Intermediate Casing,Run Csg & Cement,run_casing_cement,casing_cementing
+11/12/2020,1.0,Intermediate Casing,Run Csg & Cement,run_casing_cement,casing_cementing
+11/12/2020,8.5,Intermediate Casing,Run Csg & Cement,run_casing_cement,casing_cementing
+11/14/2020,5.5,Intermediate Casing,Other,other,flat
+11/14/2020,4.5,Intermediate Casing,Nipple Up B.O.P.,bop_test_nipple_up,flat
+11/14/2020,2.0,Intermediate Casing,Other,other,flat
+11/14/2020,4.5,Intermediate Casing,Other,other,flat
+11/14/2020,2.0,Intermediate Casing,Other,other,flat
+11/14/2020,4.0,Intermediate Casing,Other,other,flat
+11/14/2020,1.5,Intermediate Casing,Test B.O.P.,bop_test_nipple_up,flat
+11/16/2020,9.5,Production Drilling,Drilling,drilling_on_bottom,drilling
+11/16/2020,2.5,Production Drilling,Drilling,drilling_on_bottom,drilling
+11/16/2020,3.5,Production Drilling,Drilling,drilling_on_bottom,drilling
+11/16/2020,4.0,Production Drilling,Trips,trips,tripping
+11/16/2020,3.0,Production Drilling,Trips,trips,tripping
+11/16/2020,1.5,Production Drilling,Drilling,drilling_on_bottom,drilling
+11/18/2020,1.0,Production Drilling,Other,other,flat
+11/18/2020,2.0,Production Drilling,Other,other,flat
+11/18/2020,2.0,Production Drilling,Trips,trips,tripping
+11/18/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+11/18/2020,1.0,Production Drilling,Rig Service,rig_service,flat
+11/18/2020,1.5,Production Drilling,Trips,trips,tripping
+11/18/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+11/18/2020,8.0,Production Drilling,Coring,coring,flat
+11/18/2020,4.5,Production Drilling,Trips,trips,tripping
+11/18/2020,3.0,Production Drilling,Trips,trips,tripping
+11/20/2020,11.5,?,?,unparsed,flat
+11/20/2020,3.0,Intermediate Drilling,Trips,trips,tripping
+11/20/2020,4.0,Intermediate Drilling,Trips,trips,tripping
+11/20/2020,5.5,Intermediate Drilling,Drilling,drilling_on_bottom,drilling
+11/21/2020,12.0,Production Drilling,Drilling,drilling_on_bottom,drilling
+11/21/2020,12.0,Production Drilling,Drilling,drilling_on_bottom,drilling
+11/23/2020,0.5,Production Drilling,Coring,coring,flat
+11/23/2020,5.0,Production Drilling,Trips,trips,tripping
+11/23/2020,2.0,Production Drilling,Other,other,flat
+11/23/2020,4.5,Production Drilling,Trips,trips,tripping
+11/23/2020,0.5,Production Drilling,Drilling,drilling_on_bottom,drilling
+11/23/2020,1.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+11/23/2020,2.5,Production Drilling,Trips,trips,tripping
+11/23/2020,4.0,Production Drilling,Trips,trips,tripping
+11/23/2020,3.5,Production Drilling,Coring,coring,flat
+11/25/2020,12.5,Production Drilling,Drilling,drilling_on_bottom,drilling
+11/25/2020,2.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+11/25/2020,1.0,Production Drilling,Trips,trips,tripping
+11/25/2020,3.0,Production Drilling,Trips,trips,tripping
+11/25/2020,2.0,Production Drilling,Trips,trips,tripping
+11/25/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+11/25/2020,2.5,Production Drilling,Trips,trips,tripping
+11/26/2020,5.0,Production Drilling,Wire Line Logs,logging,logging
+11/26/2020,1.0,Production Drilling,Other,other,flat
+11/26/2020,1.5,Production Drilling,Trips,trips,tripping
+11/26/2020,2.0,Production Drilling,Cut off Drill Line,slip_and_cut,flat
+11/26/2020,2.5,Production Drilling,Trips,trips,tripping
+11/26/2020,2.0,Production Drilling,Trips,trips,tripping
+11/26/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+11/26/2020,3.0,?,?,unparsed,flat
+11/26/2020,4.5,Production Drilling,Trips,trips,tripping
+11/26/2020,2.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+11/27/2020,0.5,Production Drilling,Other,other,flat
+11/27/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+11/27/2020,2.0,Production Drilling,Trips,trips,tripping
+11/27/2020,1.0,Production Drilling,Drilling,drilling_on_bottom,drilling
+11/27/2020,1.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+11/27/2020,6.0,Production Drilling,Trips,trips,tripping
+11/27/2020,0.5,Production Drilling,Other,other,flat
+11/27/2020,1.0,Production Drilling,Trips,trips,tripping
+11/27/2020,1.5,Production Drilling,Trips,trips,tripping
+11/27/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+11/27/2020,1.0,Production Drilling,Trips,trips,tripping
+11/27/2020,7.0,Production Drilling,Drilling,drilling_on_bottom,drilling
+11/28/2020,11.5,Production Drilling,Drilling,drilling_on_bottom,drilling
+11/28/2020,0.5,Production Drilling,Lubricate Rig,rig_service,flat
+11/28/2020,2.0,Production Drilling,Drilling,drilling_on_bottom,drilling
+11/28/2020,1.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+11/28/2020,1.5,Production Drilling,Trips,trips,tripping
+11/28/2020,3.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+11/28/2020,1.5,Production Drilling,Trips,trips,tripping
+11/28/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+11/28/2020,1.5,Production Drilling,Trips,trips,tripping
+11/29/2020,0.5,Production Drilling,Other,other,flat
+11/29/2020,2.0,Production Drilling,Other,other,flat
+11/29/2020,1.5,Production Drilling,Trips,trips,tripping
+11/29/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+11/29/2020,1.5,Production Drilling,Trips,trips,tripping
+11/29/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+11/29/2020,0.5,Production Drilling,Trips,trips,tripping
+11/29/2020,2.5,Production Drilling,Trips,trips,tripping
+11/29/2020,14.5,Production Drilling,Drilling,drilling_on_bottom,drilling
+12/03/2020,4.5,Production Drilling,Wire Line Logs,logging,logging
+12/03/2020,2.0,Production Drilling,Trips,trips,tripping
+12/03/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/03/2020,1.0,Production Drilling,Trips,trips,tripping
+12/03/2020,5.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/03/2020,3.0,Production Drilling,Trips,trips,tripping
+12/03/2020,5.0,Production Drilling,Trips,trips,tripping
+12/03/2020,3.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/04/2020,6.0,Production Drilling,Other,other,flat
+12/04/2020,2.0,Production Drilling,Trips,trips,tripping
+12/04/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/04/2020,3.5,Production Drilling,Trips,trips,tripping
+12/04/2020,1.0,Production Drilling,Trips,trips,tripping
+12/04/2020,4.0,Production Drilling,Trips,trips,tripping
+12/04/2020,0.5,Production Drilling,Drilling,drilling_on_bottom,drilling
+12/04/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/04/2020,3.0,Production Drilling,Trips,trips,tripping
+12/04/2020,2.0,Production Drilling,Trips,trips,tripping
+12/05/2020,2.5,Production Drilling,Trips,trips,tripping
+12/05/2020,6.5,Production Drilling,Drilling,drilling_on_bottom,drilling
+12/05/2020,0.5,Production Drilling,Rig Service,rig_service,flat
+12/05/2020,14.5,Production Drilling,Drilling,drilling_on_bottom,drilling
+12/06/2020,1.0,Production Drilling,Drilling,drilling_on_bottom,drilling
+12/06/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/06/2020,3.5,Production Drilling,Trips,trips,tripping
+12/06/2020,1.5,Production Drilling,Dir Work,directional_work,flat
+12/06/2020,1.0,Production Drilling,Rig Service,rig_service,flat
+12/06/2020,2.5,Production Drilling,Trips,trips,tripping
+12/06/2020,1.0,Production Drilling,Trips,trips,tripping
+12/06/2020,1.5,Production Drilling,Cut off Drill Line,slip_and_cut,flat
+12/06/2020,1.0,Production Drilling,Trips,trips,tripping
+12/06/2020,6.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/06/2020,3.5,Production Drilling,Trips,trips,tripping
+12/07/2020,2.0,Production Drilling,Other,other,flat
+12/07/2020,2.5,Production Drilling,Trips,trips,tripping
+12/07/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/07/2020,1.5,Production Drilling,Trips,trips,tripping
+12/07/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/07/2020,5.0,Production Drilling,Other,other,flat
+12/07/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/07/2020,3.5,Production Drilling,Trips,trips,tripping
+12/07/2020,4.5,Production Drilling,Trips,trips,tripping
+12/07/2020,2.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/08/2020,2.5,Production Drilling,Fishing,fishing,flat
+12/08/2020,4.0,Production Drilling,Trips,trips,tripping
+12/08/2020,0.5,Production Drilling,Rig Service,rig_service,flat
+12/08/2020,1.5,Production Drilling,Dir Work,directional_work,flat
+12/08/2020,1.5,Production Drilling,Trips,trips,tripping
+12/08/2020,0.5,Production Drilling,Other,other,flat
+12/08/2020,1.5,Production Drilling,Trips,trips,tripping
+12/08/2020,6.0,Production Drilling,Drilling,drilling_on_bottom,drilling
+12/08/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/08/2020,3.0,Production Drilling,Trips,trips,tripping
+12/08/2020,2.0,Production Drilling,Trips,trips,tripping
+12/09/2020,1.0,Production Drilling,Trips,trips,tripping
+12/09/2020,0.5,Production Drilling,Trips,trips,tripping
+12/09/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/09/2020,4.5,Production Drilling,Trips,trips,tripping
+12/09/2020,2.0,Production Drilling,Trips,trips,tripping
+12/09/2020,6.0,Production Drilling,Trips,trips,tripping
+12/09/2020,3.5,Production Drilling,Drilling,drilling_on_bottom,drilling
+12/09/2020,5.5,Production Drilling,Trips,trips,tripping
+12/10/2020,1.5,Production Drilling,Trips,trips,tripping
+12/10/2020,1.0,Production Drilling,Dir Work,directional_work,flat
+12/10/2020,2.0,Production Drilling,Trips,trips,tripping
+12/10/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/10/2020,2.0,Production Drilling,Trips,trips,tripping
+12/10/2020,2.5,Production Drilling,Drilling,drilling_on_bottom,drilling
+12/10/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/10/2020,4.5,Production Drilling,Trips,trips,tripping
+12/10/2020,1.5,Production Drilling,Dir Work,directional_work,flat
+12/10/2020,0.5,Production Drilling,Trips,trips,tripping
+12/10/2020,1.0,Production Drilling,Cut off Drill Line,slip_and_cut,flat
+12/10/2020,1.5,Production Drilling,Trips,trips,tripping
+12/10/2020,3.5,Production Drilling,Trips,trips,tripping
+12/10/2020,1.5,Production Drilling,Trips,trips,tripping
+12/11/2020,1.5,Production Drilling,Trips,trips,tripping
+12/11/2020,1.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/11/2020,1.5,Production Drilling,Trips,trips,tripping
+12/11/2020,3.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/11/2020,2.0,Production Drilling,Trips,trips,tripping
+12/11/2020,1.0,Production Drilling,Other,other,flat
+12/11/2020,1.0,Production Drilling,Other,other,flat
+12/11/2020,1.0,Production Drilling,Trips,trips,tripping
+12/11/2020,0.5,Production Drilling,Other,other,flat
+12/11/2020,2.5,Production Drilling,Trips,trips,tripping
+12/11/2020,1.5,Production Drilling,Other,other,flat
+12/11/2020,3.5,Production Drilling,Trips,trips,tripping
+12/12/2020,3.5,Production Drilling,Trips,trips,tripping
+12/12/2020,1.5,Production Drilling,Wire Line Logs,logging,logging
+12/12/2020,8.0,Production Drilling,Wire Line Logs,logging,logging
+12/12/2020,1.5,Production Drilling,Trips,trips,tripping
+12/12/2020,4.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/12/2020,3.5,Production Drilling,Trips,trips,tripping
+12/12/2020,1.5,?,?,unparsed,flat
+12/13/2020,2.5,Production Drilling,Other,other,flat
+12/13/2020,2.0,Production Drilling,Trips,trips,tripping
+12/13/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/13/2020,1.5,Production Drilling,Trips,trips,tripping
+12/13/2020,12.5,Production Drilling,Drilling,drilling_on_bottom,drilling
+12/13/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/13/2020,4.0,Production Drilling,Trips,trips,tripping
+12/15/2020,2.5,Production Drilling,Drilling,drilling_on_bottom,drilling
+12/15/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/15/2020,3.5,Production Drilling,Trips,trips,tripping
+12/15/2020,1.5,Production Drilling,Dir Work,directional_work,flat
+12/15/2020,3.0,Production Drilling,Trips,trips,tripping
+12/15/2020,1.5,Production Drilling,Cut off Drill Line,slip_and_cut,flat
+12/15/2020,1.0,Production Drilling,Trips,trips,tripping
+12/15/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/15/2020,1.0,Production Drilling,Trips,trips,tripping
+12/15/2020,8.0,Production Drilling,Reaming,reaming,flat
+12/16/2020,19.5,Production Drilling,Reaming,reaming,flat
+12/16/2020,4.5,Production Drilling,Trips,trips,tripping
+12/17/2020,0.5,Production Drilling,Trips,trips,tripping
+12/17/2020,5.0,Production Drilling,Test B.O.P.,bop_test_nipple_up,flat
+12/17/2020,1.5,Production Drilling,Dir Work,directional_work,flat
+12/17/2020,2.5,Production Drilling,Trips,trips,tripping
+12/17/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/17/2020,0.5,Production Drilling,Trips,trips,tripping
+12/17/2020,4.0,Production Drilling,Repair Rig,rig_repair,flat
+12/17/2020,1.0,Production Drilling,Trips,trips,tripping
+12/17/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/17/2020,0.5,Production Drilling,Trips,trips,tripping
+12/17/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/17/2020,1.0,Production Drilling,Trips,trips,tripping
+12/17/2020,5.0,Production Drilling,Drilling,drilling_on_bottom,drilling
+12/18/2020,3.0,Production Drilling,Drilling,drilling_on_bottom,drilling
+12/18/2020,0.5,Production Drilling,Rig Service,rig_service,flat
+12/18/2020,9.0,Production Drilling,Drilling,drilling_on_bottom,drilling
+12/18/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/18/2020,5.5,Production Drilling,Trips,trips,tripping
+12/18/2020,1.0,Production Drilling,Dir Work,directional_work,flat
+12/18/2020,0.5,Production Drilling,Dir Work,directional_work,flat
+12/18/2020,1.5,Production Drilling,Trips,trips,tripping
+12/18/2020,2.5,Production Drilling,Cut off Drill Line,slip_and_cut,flat
+12/19/2020,1.5,Production Drilling,Trips,trips,tripping
+12/19/2020,0.5,Production Drilling,Trips,trips,tripping
+12/19/2020,0.5,Production Drilling,Trips,trips,tripping
+12/19/2020,0.5,Production Drilling,Trips,trips,tripping
+12/19/2020,1.0,Production Drilling,Trips,trips,tripping
+12/19/2020,6.0,Production Drilling,Drilling,drilling_on_bottom,drilling
+12/19/2020,4.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/19/2020,4.0,Production Drilling,Drilling,drilling_on_bottom,drilling
+12/19/2020,1.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/19/2020,4.5,Production Drilling,Trips,trips,tripping
+12/20/2020,1.0,Production Drilling,Dir Work,directional_work,flat
+12/20/2020,0.5,Production Drilling,Trips,trips,tripping
+12/20/2020,4.5,Production Drilling,Trips,trips,tripping
+12/20/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/20/2020,1.0,Production Drilling,Other,other,flat
+12/20/2020,5.5,Production Drilling,Trips,trips,tripping
+12/20/2020,1.5,Production Drilling,Other,other,flat
+12/20/2020,2.0,Production Drilling,Trips,trips,tripping
+12/20/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/20/2020,1.0,Production Drilling,Trips,trips,tripping
+12/20/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/20/2020,1.0,Production Drilling,Trips,trips,tripping
+12/20/2020,1.5,Production Drilling,Trips,trips,tripping
+12/20/2020,2.5,Production Drilling,Trips,trips,tripping
+12/22/2020,13.5,Production Drilling,Reaming,reaming,flat
+12/22/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/22/2020,1.5,Production Drilling,Trips,trips,tripping
+12/22/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/22/2020,3.5,Production Drilling,Trips,trips,tripping
+12/22/2020,1.0,Production Drilling,Trips,trips,tripping
+12/22/2020,1.5,Production Drilling,Trips,trips,tripping
+12/22/2020,1.0,?,?,unparsed,flat
+12/23/2020,1.5,Production Drilling,Trips,trips,tripping
+12/23/2020,0.5,Production Drilling,Trips,trips,tripping
+12/23/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/23/2020,0.5,Production Drilling,Trips,trips,tripping
+12/23/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/23/2020,0.5,Production Drilling,Trips,trips,tripping
+12/23/2020,0.5,Production Drilling,Other,other,flat
+12/23/2020,0.5,Production Drilling,Other,other,flat
+12/23/2020,1.0,Production Drilling,Other,other,flat
+12/23/2020,0.5,Production Drilling,Coring,coring,flat
+12/23/2020,4.5,Production Drilling,Coring,coring,flat
+12/23/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/23/2020,5.5,Production Drilling,Trips,trips,tripping
+12/23/2020,1.0,Production Drilling,Coring,coring,flat
+12/23/2020,3.0,Production Drilling,Trips,trips,tripping
+12/23/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/23/2020,1.0,Production Drilling,Trips,trips,tripping
+12/23/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/23/2020,0.5,Production Drilling,Trips,trips,tripping
+12/23/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/24/2020,0.5,Production Drilling,Trips,trips,tripping
+12/24/2020,1.0,Production Drilling,Reaming,reaming,flat
+12/24/2020,1.0,Production Drilling,Reaming,reaming,flat
+12/24/2020,5.5,Production Drilling,Trips,trips,tripping
+12/24/2020,1.0,Production Drilling,Coring,coring,flat
+12/24/2020,0.5,Production Drilling,Rig Service,rig_service,flat
+12/24/2020,1.0,Production Drilling,Trips,trips,tripping
+12/24/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/24/2020,1.0,Production Drilling,Trips,trips,tripping
+12/24/2020,0.5,Production Drilling,Trips,trips,tripping
+12/24/2020,0.5,Production Drilling,Trips,trips,tripping
+12/24/2020,0.5,Production Drilling,Trips,trips,tripping
+12/24/2020,2.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/24/2020,4.5,Production Drilling,Coring,coring,flat
+12/24/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/24/2020,3.0,Production Drilling,Trips,trips,tripping
+12/25/2020,2.0,Production Drilling,Trips,trips,tripping
+12/25/2020,1.5,Production Drilling,Coring,coring,flat
+12/25/2020,1.0,Production Drilling,Trips,trips,tripping
+12/25/2020,2.5,Production Drilling,Trips,trips,tripping
+12/25/2020,1.0,Production Drilling,Cut off Drill Line,slip_and_cut,flat
+12/25/2020,1.0,Production Drilling,Trips,trips,tripping
+12/25/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/25/2020,0.5,Production Drilling,Trips,trips,tripping
+12/25/2020,13.5,Production Drilling,Reaming,reaming,flat
+12/26/2020,1.0,Production Drilling,Reaming,reaming,flat
+12/26/2020,1.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/26/2020,0.5,Production Drilling,Trips,trips,tripping
+12/26/2020,1.0,Production Drilling,Other,other,flat
+12/26/2020,4.0,Production Drilling,Trips,trips,tripping
+12/26/2020,0.5,Production Drilling,Trips,trips,tripping
+12/26/2020,2.5,Production Drilling,Trips,trips,tripping
+12/26/2020,5.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/26/2020,3.5,Production Drilling,Trips,trips,tripping
+12/26/2020,4.5,Production Drilling,Wire Line Logs,logging,logging
+12/27/2020,1.5,Production Drilling,Wire Line Logs,logging,logging
+12/27/2020,1.5,Production Drilling,Trips,trips,tripping
+12/27/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/27/2020,2.0,Production Drilling,Trips,trips,tripping
+12/27/2020,4.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/27/2020,2.0,Production Drilling,Wire Line Logs,logging,logging
+12/27/2020,8.5,Production Drilling,Wire Line Logs,logging,logging
+12/27/2020,1.0,Production Drilling,Wire Line Logs,logging,logging
+12/27/2020,2.0,Production Drilling,Trips,trips,tripping
+12/27/2020,0.5,Production Drilling,Lubricate Rig,rig_service,flat
+12/28/2020,0.5,Production Drilling,Rig Service,rig_service,flat
+12/28/2020,4.0,Production Drilling,Trips,trips,tripping
+12/28/2020,2.0,Production Drilling,Trips,trips,tripping
+12/28/2020,0.5,Production Drilling,Trips,trips,tripping
+12/28/2020,4.0,Production Drilling,Other,other,flat
+12/28/2020,1.5,Production Drilling,Trips,trips,tripping
+12/28/2020,2.0,Production Drilling,Cut off Drill Line,slip_and_cut,flat
+12/28/2020,0.5,Production Drilling,Lubricate Rig,rig_service,flat
+12/28/2020,2.0,Production Drilling,Trips,trips,tripping
+12/28/2020,7.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/29/2020,5.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/29/2020,2.0,Production Drilling,Wire Line Logs,logging,logging
+12/29/2020,0.5,Production Drilling,Wire Line Logs,logging,logging
+12/29/2020,8.0,Production Drilling,Wire Line Logs,logging,logging
+12/29/2020,5.5,Production Drilling,Trips,trips,tripping
+12/29/2020,1.0,Production Drilling,Trips,trips,tripping
+12/29/2020,1.5,Production Drilling,Trips,trips,tripping
+12/30/2020,1.0,Production Drilling,Trips,trips,tripping
+12/30/2020,1.5,Production Drilling,Trips,trips,tripping
+12/30/2020,0.5,Production Drilling,Rig Service,rig_service,flat
+12/30/2020,1.0,Production Drilling,Trips,trips,tripping
+12/30/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/30/2020,1.0,Production Drilling,Trips,trips,tripping
+12/30/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/30/2020,0.5,?,?,unparsed,flat
+12/30/2020,1.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/30/2020,0.5,Production Drilling,Trips,trips,tripping
+12/30/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/30/2020,4.0,Production Drilling,Trips,trips,tripping
+12/30/2020,5.5,Production Drilling,Trips,trips,tripping
+12/30/2020,1.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/30/2020,4.0,Production Drilling,Reaming,reaming,flat
+12/31/2020,1.0,Production Drilling,Trips,trips,tripping
+12/31/2020,2.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/31/2020,1.0,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/31/2020,2.5,Production Drilling,Trips,trips,tripping
+12/31/2020,0.5,Production Drilling,Cond Mud & Circ,circulate_condition_mud,flat
+12/31/2020,7.5,Production Drilling,Trips,trips,tripping
+12/31/2020,0.5,Production Drilling,Trips,trips,tripping
+12/31/2020,2.0,Production Drilling,Run Csg & Cement,run_casing_cement,casing_cementing
+12/31/2020,7.0,Production Drilling,Run Csg & Cement,run_casing_cement,casing_cementing
+10/21/2020,2.0,?,?,unparsed,flat
+10/21/2020,7.0,?,?,unparsed,flat
+10/21/2020,4.0,?,?,unparsed,flat
+10/21/2020,11.0,?,?,unparsed,flat

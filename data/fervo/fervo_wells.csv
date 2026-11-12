@@ -1,0 +1,9 @@
+well,project,order_overall,order_in_project,drilling_days,td_ft,cost_per_ft_usd,cost_usd,source,notes
+Red-1,Project Red,1,1,71,11220,,,El-Sadi et al. 2024 (Fig. 1-2),TD approximate (about 11220 ft); cost not reported
+Red-2,Project Red,2,2,58,11220,,,El-Sadi et al. 2024 (Fig. 1-2),TD approximate (about 11220 ft); cost not reported
+Cape-1,Cape Station,3,1,33.75,13316,633.45,8435020.20,Akindipe & Witter 2025 (Table 1),Fervo's 3rd horizontal well
+Cape-2,Cape Station,4,2,25.91,13272,471.59,6258942.48,Akindipe & Witter 2025 (Table 1),
+Cape-3,Cape Station,5,3,24.26,13601,395.71,5382051.71,Akindipe & Witter 2025 (Table 1),
+Cape-4,Cape Station,6,4,20.10,13289,346.45,4603974.05,Akindipe & Witter 2025 (Table 1),Fervo's well 6: barefoot completion with no production liner (El-Sadi et al. 2024)
+Cape-5,Cape Station,7,5,23.71,13949,394.08,5497021.92,Akindipe & Witter 2025 (Table 1),Fervo's well 7: larger casing design and 1500 ft more granite; +0.5 MW per producer (El-Sadi et al. 2024)
+Cape-6,Cape Station,8,6,22.27,13734,357.36,4907982.24,Akindipe & Witter 2025 (Table 1),Fervo's well 8

@@ -1,0 +1,51 @@
+source,component,value,unit,class,notes
+carson_lin_1981,Drilling contract,39.9,pct,time,rig day work
+carson_lin_1981,Cement,18.5,pct,materials,includes cementing service
+carson_lin_1981,Casing,9.3,pct,materials,
+carson_lin_1981,Bits,8.1,pct,rop_consumable,
+carson_lin_1981,Mud and chemicals,5.7,pct,rop_consumable,
+carson_lin_1981,Equipment rental,4.2,pct,time,
+carson_lin_1981,Mobilization,3.7,pct,fixed,
+carson_lin_1981,Miscellaneous,3.3,pct,other,
+carson_lin_1981,Fuel,1.8,pct,time,
+carson_lin_1981,Supervision,1.6,pct,time,
+carson_lin_1981,Transportation,2.0,pct,other,
+carson_lin_1981,Location preparation,1.1,pct,fixed,
+carson_lin_1981,Logging,0.9,pct,other,
+thorhallsson_2012,Time cost (rig and services day rates),2266243,usd,time,
+thorhallsson_2012,Material cost,1641494,usd,materials,
+thorhallsson_2012,"Site, cellar, water supply",400000,usd,fixed,
+thorhallsson_2012,Moving small rig,105625,usd,fixed,
+thorhallsson_2012,Moving large rig,255000,usd,fixed,
+gul_2018,Daily drilling rate,499658.25,usd,time,
+gul_2018,Mobilization and demobilization,100000,usd,fixed,
+gul_2018,Diesel,340676.08,usd,time,
+gul_2018,Water,18169.39,usd,time,
+gul_2018,Casing (tubulars),408000,usd,materials,
+gul_2018,Mud materials and chemicals,200000,usd,rop_consumable,
+gul_2018,Mud personnel,45423.48,usd,time,
+gul_2018,Mud laboratory equipment,9084.70,usd,time,rental
+gul_2018,Location preparation,260000,usd,fixed,
+gul_2018,Directional services,204405.65,usd,time,
+gul_2018,Drilling bits,88950,usd,rop_consumable,
+gul_2018,Cementing,65000,usd,materials,
+gul_2018,Company labour and supervision,42000,usd,time,
+gul_2018,Wellhead,36000,usd,materials,
+gul_2018,Logging,22500,usd,other,
+gul_2018,Liner hangers,20000,usd,materials,
+polsky_2008,Drilling (rock reduction),23,pct,time,activity cost at the daily rate
+polsky_2008,Casing,21,pct,materials,
+polsky_2008,Cementing,19,pct,materials,
+polsky_2008,Tripping,11,pct,time,
+polsky_2008,Drilling consumables,8,pct,rop_consumable,bits and mud
+polsky_2008,BHA handling,6,pct,time,
+polsky_2008,Logging,5,pct,time,activity cost at the daily rate
+polsky_2008,Circulating,2,pct,time,
+polsky_2008,Running casing,2,pct,time,
+polsky_2008,BOP,1,pct,time,
+polsky_2008,Wellhead operations,1,pct,time,
+polsky_2008,Casing consumables,1,pct,materials,
+price_ornl_2023,Drilling,25,pct,time,
+price_ornl_2023,Casing and cementing,30,pct,materials,includes their running time
+price_ornl_2023,"Other activities (circulating, BHA, BOP, wellhead, logging, tripping)",20,pct,time,
+price_ornl_2023,Labour (with overhead) and cost of capital,25,pct,labour_capital,counted as non-time (low) or time (high)

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wcsl"
+version = "0.1.0"
+description = "WCS-L: an EGS well-cost model with learning, a spread rate and random trouble time, built on the Sandia WCS"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.10"]
+
+[project.optional-dependencies]
+reports = ["matplotlib>=3.7"]
+dev = ["pytest>=7", "matplotlib>=3.7"]
+excel = ["openpyxl>=3.1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

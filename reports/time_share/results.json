@@ -1,0 +1,329 @@
+{
+  "rows": [
+    {
+      "id": "carson_lin_1981",
+      "category": "conventional_geothermal",
+      "label": "Carson & Lin (c. 1981), Baca NM: 15 wells",
+      "low": 0.47452547452547456,
+      "central": 0.47452547452547456,
+      "high": 0.6123876123876124,
+      "basis": "itemised_actuals",
+      "note": "point = spread definition; bar extends to the broad definition (+ bits and mud)"
+    },
+    {
+      "id": "thorhallsson_2012",
+      "category": "conventional_geothermal",
+      "label": "Thorhallsson & Sveinbjornsson (2012), Iceland",
+      "low": 0.4854471439875485,
+      "central": 0.4854471439875485,
+      "high": 0.4854471439875485,
+      "basis": "itemised_actuals",
+      "note": "point = spread definition; bar extends to the broad definition (+ bits and mud)"
+    },
+    {
+      "id": "gul_2018",
+      "category": "conventional_geothermal",
+      "label": "Gul & Aslanoglu (2018), Turkey",
+      "low": 0.49130619640072604,
+      "central": 0.49130619640072604,
+      "high": 0.6137495089501952,
+      "basis": "itemised_model",
+      "note": "point = spread definition; bar extends to the broad definition (+ bits and mud)"
+    },
+    {
+      "id": "polsky_2008",
+      "category": "egs_study",
+      "label": "Polsky et al. (2008), Sandia EGS well model",
+      "low": 0.51,
+      "central": 0.51,
+      "high": 0.59,
+      "basis": "itemised_model",
+      "note": "activity costs at a universal $58,130/day spread"
+    },
+    {
+      "id": "price_ornl_2023",
+      "category": "egs_study",
+      "label": "Price et al. (2023), ORNL road map",
+      "low": 0.45,
+      "central": 0.575,
+      "high": 0.7,
+      "basis": "itemised_model",
+      "note": "labour and cost of capital (25 %) counted as non-time (low) to time (high)"
+    },
+    {
+      "id": "bloomfield_laney_2005",
+      "category": "egs_study",
+      "label": "Bloomfield & Laney (2005), INL EGS cost study",
+      "low": 0.55,
+      "central": 0.6,
+      "high": 0.65,
+      "basis": "stated",
+      "note": "'the remainder of the cost is proportional to the time for drilling'"
+    },
+    {
+      "id": "elsadi_2024",
+      "category": "modern_egs_horizontal",
+      "label": "El-Sadi et al. (2024), Fervo: 'over 75 %'",
+      "low": 0.75,
+      "central": 0.75,
+      "high": null,
+      "basis": "stated",
+      "note": "lower bound stated by the operator"
+    },
+    {
+      "id": "cape_derived",
+      "category": "modern_egs_horizontal",
+      "label": "Cape Station wells, derived from Akindipe & Witter (2025)",
+      "low": 0.657973420806707,
+      "central": 0.7263787366453656,
+      "high": 0.7947840524840242,
+      "basis": "derived",
+      "note": "1 - non-time cost / cost; non-time cost $1.2M-$2.0M per well (central $1.6M)"
+    },
+    {
+      "id": "tester_mit_2006",
+      "category": "bound",
+      "label": "Tester et al. (2006), MIT: ROP sensitivity",
+      "low": 0.44,
+      "central": null,
+      "high": null,
+      "basis": "lower_bound",
+      "note": "ROP-linked share >= 44 % (4,000 m well)"
+    },
+    {
+      "id": "finger_2010",
+      "category": "bound",
+      "label": "Finger & Blankenship (2010), Sandia handbook",
+      "low": null,
+      "central": null,
+      "high": 0.6,
+      "basis": "upper_bound",
+      "note": "casing and cementing > 40 % (conventional)"
+    },
+    {
+      "id": "wcs_2017",
+      "category": "model_wcs",
+      "label": "WCS: Vertical 5,000 m, GeoVision base (2016 prices)",
+      "low": 0.19021383293241137,
+      "central": 0.19021383293241137,
+      "high": 0.28032179311439753,
+      "basis": "model",
+      "note": "rig time + mud per day + directional; + bits and BHA (broad)"
+    },
+    {
+      "id": "wcs_2017",
+      "category": "model_wcs",
+      "label": "WCS: Vertical 5,000 m, NREL 2025 parameters",
+      "low": 0.11657465278171825,
+      "central": 0.11657465278171825,
+      "high": 0.18449135395166755,
+      "basis": "model",
+      "note": "rig time + mud per day + directional; + bits and BHA (broad)"
+    },
+    {
+      "id": "wcs_2017",
+      "category": "model_wcs",
+      "label": "WCS: Cape-like horizontal, NREL 2025 parameters",
+      "low": 0.2080350110235908,
+      "central": 0.2080350110235908,
+      "high": 0.3089693568379799,
+      "basis": "model",
+      "note": "rig time + mud per day + directional; + bits and BHA (broad)"
+    }
+  ],
+  "itemised": {
+    "carson_lin_1981": {
+      "spread": 0.47452547452547456,
+      "broad": 0.6123876123876124,
+      "labour_capital": 0.0,
+      "classes": {
+        "time": 0.47452547452547456,
+        "materials": 0.27772227772227775,
+        "rop_consumable": 0.13786213786213788,
+        "fixed": 0.04795204795204796,
+        "other": 0.06193806193806194,
+        "labour_capital": 0.0
+      },
+      "total": 100.1
+    },
+    "thorhallsson_2012": {
+      "spread": 0.4854471439875485,
+      "broad": 0.4854471439875485,
+      "labour_capital": 0.0,
+      "classes": {
+        "time": 0.4854471439875485,
+        "materials": 0.3516209754085052,
+        "fixed": 0.1629318806039463,
+        "rop_consumable": 0.0,
+        "labour_capital": 0.0
+      },
+      "total": 4668362.0
+    },
+    "gul_2018": {
+      "spread": 0.49130619640072604,
+      "broad": 0.6137495089501952,
+      "labour_capital": 0.0,
+      "classes": {
+        "time": 0.49130619640072604,
+        "fixed": 0.15255093447935247,
+        "materials": 0.22416512316549292,
+        "rop_consumable": 0.12244331254946915,
+        "other": 0.00953443340495953,
+        "labour_capital": 0.0
+      },
+      "total": 2359867.55
+    },
+    "polsky_2008": {
+      "spread": 0.51,
+      "broad": 0.59,
+      "labour_capital": 0.0,
+      "classes": {
+        "time": 0.51,
+        "materials": 0.41,
+        "rop_consumable": 0.08,
+        "labour_capital": 0.0
+      },
+      "total": 100.0
+    },
+    "price_ornl_2023": {
+      "spread": 0.45,
+      "broad": 0.45,
+      "labour_capital": 0.25,
+      "classes": {
+        "time": 0.45,
+        "materials": 0.3,
+        "labour_capital": 0.25,
+        "rop_consumable": 0.0
+      },
+      "total": 100.0
+    }
+  },
+  "cape_derived": {
+    "1200000": {
+      "per_well": [
+        0.8577359660620612,
+        0.8082743204887226,
+        0.7770367018640183,
+        0.7393556117024596,
+        0.781699979104322,
+        0.7555003377518335
+      ],
+      "campaign": 0.7947840524840242
+    },
+    "1600000": {
+      "per_well": [
+        0.8103146214160815,
+        0.7443657606516301,
+        0.7027156024853578,
+        0.6524741489366127,
+        0.7089333054724294,
+        0.6740004503357779
+      ],
+      "campaign": 0.7263787366453656
+    },
+    "2000000": {
+      "per_well": [
+        0.7628932767701019,
+        0.6804572008145376,
+        0.6283945031066972,
+        0.5655926861707659,
+        0.6361666318405367,
+        0.5925005629197224
+      ],
+      "campaign": 0.657973420806707
+    }
+  },
+  "wcs": {
+    "Vertical 5,000 m, GeoVision base (2016 prices)": {
+      "spread": 0.19021383293241137,
+      "broad": 0.28032179311439753,
+      "materials": 0.7738160972706257,
+      "fixed": 0.03597006979696289,
+      "total": 16402525.859146824
+    },
+    "Vertical 5,000 m, NREL 2025 parameters": {
+      "spread": 0.11657465278171825,
+      "broad": 0.18449135395166755,
+      "materials": 0.8409094724022999,
+      "fixed": 0.04251587481598198,
+      "total": 13877169.47031313
+    },
+    "Cape-like horizontal, NREL 2025 parameters": {
+      "spread": 0.2080350110235908,
+      "broad": 0.3089693568379799,
+      "materials": 0.6628979970520091,
+      "fixed": 0.1290669919244002,
+      "total": 4571269.4717917275
+    }
+  },
+  "synthesis": {
+    "conventional_geothermal": {
+      "n": 3,
+      "mean_central": 0.48375960497124976,
+      "min_low": 0.47452547452547456,
+      "max_high": 0.6137495089501952
+    },
+    "egs_study": {
+      "n": 3,
+      "mean_central": 0.5616666666666666,
+      "min_low": 0.45,
+      "max_high": 0.7
+    },
+    "modern_egs_horizontal": {
+      "n": 2,
+      "mean_central": 0.7381893683226828,
+      "min_low": 0.657973420806707,
+      "max_high": 0.7947840524840242
+    },
+    "model_wcs": {
+      "n": 3,
+      "mean_central": 0.1716078322459068,
+      "min_low": 0.11657465278171825,
+      "max_high": 0.3089693568379799
+    }
+  },
+  "priors": {
+    "modern_egs_horizontal": {
+      "central": 0.75,
+      "p05": 0.6,
+      "p95": 0.86,
+      "rationale": "Operator statement (>= 0.75) and the Cape derivation (0.66-0.80 campaign, 0.76-0.86 on the first wells); lower end allows for a broader definition of materials",
+      "beta": {
+        "a": 18.915055488380514,
+        "b": 6.305018496126838,
+        "p05": 0.6000000000000001,
+        "p95": 0.8770709357554921
+      }
+    },
+    "vertical_or_deep_egs": {
+      "central": 0.52,
+      "p05": 0.45,
+      "p95": 0.62,
+      "rationale": "Itemised conventional wells (0.47-0.49 spread, 0.61-0.64 broad) and EGS studies (0.46-0.60)",
+      "beta": {
+        "a": 71.5583156067205,
+        "b": 66.05382979081892,
+        "p05": 0.4499999999999999,
+        "p95": 0.5896682092721597
+      }
+    }
+  },
+  "implied_cape": {
+    "0.50": {
+      "spread_per_day": 116949.97533333332,
+      "nontime_per_well": 2923749.3833333333
+    },
+    "0.60": {
+      "spread_per_day": 140339.97039999996,
+      "nontime_per_well": 2338999.506666667
+    },
+    "0.75": {
+      "spread_per_day": 175424.963,
+      "nontime_per_well": 1461874.6916666667
+    },
+    "0.86": {
+      "spread_per_day": 201153.95757333332,
+      "nontime_per_well": 818649.8273333334
+    }
+  }
+}

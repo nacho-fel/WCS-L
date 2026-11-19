@@ -1,0 +1,40 @@
+{
+ "dc_continuous": {
+  "net_mw": 109.31,
+  "lcoe": 9.12,
+  "npv": 22.54,
+  "irr": 18.96,
+  "nprod": 12.0,
+  "ninj": 8.0,
+  "expl": 30.0,
+  "drill": 111.15,
+  "drill_per_well": 5.56,
+  "stim": 96.6,
+  "plant": 314.53,
+  "gath": 10.32,
+  "overnight": 562.59,
+  "capex": 661.53,
+  "redrill_cost_yr": 20.77,
+  "om_total_yr": 32.85,
+  "redrills": 3.0
+ },
+ "dc_pause12": {
+  "net_mw": 109.31,
+  "lcoe": 9.14,
+  "npv": 21.84,
+  "irr": 18.84,
+  "nprod": 12.0,
+  "ninj": 8.0,
+  "expl": 30.0,
+  "drill": 112.43,
+  "drill_per_well": 5.62,
+  "stim": 96.6,
+  "plant": 314.53,
+  "gath": 10.32,
+  "overnight": 563.88,
+  "capex": 663.04,
+  "redrill_cost_yr": 20.9,
+  "om_total_yr": 32.99,
+  "redrills": 3.0
+ }
+}

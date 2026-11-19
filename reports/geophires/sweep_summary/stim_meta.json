@@ -1,0 +1,83 @@
+{
+ "1_stim_low": {
+  "factor": 1.0892517033173685
+ },
+ "1_stim_central": {
+  "factor": 1.200816332464079
+ },
+ "1_stim_high": {
+  "factor": 1.2931170231081663
+ },
+ "2_stim_low": {
+  "factor": 1.0610427850286808
+ },
+ "2_stim_central": {
+  "factor": 1.1373462663145315
+ },
+ "2_stim_high": {
+  "factor": 1.1663930492259913
+ },
+ "3_stim_low": {
+  "factor": 1.051841678761536
+ },
+ "3_stim_central": {
+  "factor": 1.1166437772134559
+ },
+ "3_stim_high": {
+  "factor": 1.1346843512855418
+ },
+ "5_stim_low": {
+  "factor": 1.0310279090564436
+ },
+ "5_stim_central": {
+  "factor": 1.069812795376998
+ },
+ "5_stim_high": {
+  "factor": 1.0753229274016125
+ },
+ "8_stim_low": {
+  "factor": 1.020152194761249
+ },
+ "8_stim_central": {
+  "factor": 1.0453424382128103
+ },
+ "8_stim_high": {
+  "factor": 1.0484278181043958
+ },
+ "12_stim_low": {
+  "factor": 1.0141187705493553
+ },
+ "12_stim_central": {
+  "factor": 1.0317672337360495
+ },
+ "12_stim_high": {
+  "factor": 1.0338995007916136
+ },
+ "20_stim_low": {
+  "factor": 1.0083055358735964
+ },
+ "20_stim_central": {
+  "factor": 1.0186874557155918
+ },
+ "20_stim_high": {
+  "factor": 1.0199408828596974
+ },
+ "35_stim_low": {
+  "factor": 1.0047862412100497
+ },
+ "35_stim_central": {
+  "factor": 1.010769042722612
+ },
+ "35_stim_high": {
+  "factor": 1.0114913562242327
+ },
+ "56_stim_low": {
+  "factor": 1.0030041301212025
+ },
+ "56_stim_central": {
+  "factor": 1.006759292772704
+ },
+ "56_stim_high": {
+  "factor": 1.0072126597577633
+ }
+}

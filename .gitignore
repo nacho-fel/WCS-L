@@ -4,3 +4,6 @@ __pycache__/
 .pytest_cache/
 .venv/
 *.xlsx
+
+# raw GEOPHIRES sweep runs (regenerate with geophires/sweep.py)
+reports/geophires/sweep/

@@ -1,0 +1,5 @@
+[
+  {"id": "stim_low", "floor": 0.90, "k": 0.5, "label": "Low: 20 % of cost time-driven-and-learning, mature cost = 90 % of the first well"},
+  {"id": "stim_central", "floor": 0.80, "k": 0.5, "label": "Central: about half of cost time-driven, time falls to 60 %, so mature cost = 80 % of the first well"},
+  {"id": "stim_high", "floor": 0.70, "k": 1.0, "label": "High: 60 % time-driven, time halves; learns as fast as drilling; mature cost = 70 % of the first well"}
+]

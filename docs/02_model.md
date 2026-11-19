@@ -32,29 +32,29 @@ The equations are explained symbol by symbol, with worked examples, in the WCS-L
 
 | Equation | Code |
 |---|---|
-| Experience: E_n = 1 + Σ_{m<n} δ^(t_n − t_m) · ω^1[different rig] · γ^1[other project] | `experience.experience` |
-| Planned time: T_n^plan = κ · Σ_a H_a^1 · [f_a + (1 − f_a) e^(−k_a (E_n − 1))] | `model.WCSL.expected`, `learning.bm_factor` |
-| Trouble: N_n ~ Poisson(λ0 e^(−kλ (E_n − 1))), D_j ~ LogNormal | `npt.NPTModel` |
-| Days: T_n = T_n^plan / 24 + Σ D_j | `model.WCSL.expected` / `simulate` |
-| Spread: s_n = s∞ (1 + ε e^(−k_s (E_n − 1))) | `spread.SpreadRate` |
-| Materials: M_n = μ · [casing · p_steel + cement · p_cem + logging + (bits + BHA) · p_bits · f_drilling(E_n)] | `model._well_static`, `model.WCSL.expected` |
-| Well cost: C_n = s_n T_n + M_n + wellhead (+ s_n × skid days if not first on its pad) | `model.WCSL.expected` |
-| Campaign: C = F_mob + P · F_site + (P − 1) · move · F_rig + Σ_n C_n | `model.WCSL.campaign_fixed` |
-| Design choice: min Σ x_{n,d} C_{n,d} s.t. Σ x_{n,d} MW_d ≥ D | `design.evaluate` (enumeration; the MILP replaces it) |
+| Experience: $`E_n = 1 + \sum_{m<n} \delta^{\,t_n - t_m}\, \omega^{\mathbb{1}[\text{different rig}]}\, \gamma^{\mathbb{1}[\text{other project}]}`$ | `experience.experience` |
+| Planned time: $`T_n^{\text{plan}} = \kappa \sum_a H_a^{1} \left[ f_a + (1 - f_a)\, e^{-k_a (E_n - 1)} \right]`$ | `model.WCSL.expected`, `learning.bm_factor` |
+| Trouble: $`N_n \sim \text{Poisson}\left( \lambda_0\, e^{-k_\lambda (E_n - 1)} \right), \quad D_j \sim \text{LogNormal}`$ | `npt.NPTModel` |
+| Days: $`T_n = \dfrac{T_n^{\text{plan}}}{24} + \sum_{j=1}^{N_n} D_j`$ | `model.WCSL.expected` / `simulate` |
+| Spread: $`s_n = s_\infty \left( 1 + \varepsilon\, e^{-k_s (E_n - 1)} \right)`$ | `spread.SpreadRate` |
+| Materials: $`M_n = \mu \left[ \text{casing} \cdot p_{\text{steel}} + \text{cement} \cdot p_{\text{cem}} + \text{logging} + (\text{bits} + \text{BHA}) \cdot p_{\text{bits}} \cdot f_{\text{drilling}}(E_n) \right]`$ | `model._well_static`, `model.WCSL.expected` |
+| Well cost: $`C_n = s_n T_n + M_n + \text{wellhead} \; \left( + \; s_n \times \text{skid days, if not first on its pad} \right)`$ | `model.WCSL.expected` |
+| Campaign: $`C = F_{\text{mob}} + P \cdot F_{\text{site}} + (P - 1) \cdot \text{move} \cdot F_{\text{rig}} + \sum_n C_n`$ | `model.WCSL.campaign_fixed` |
+| Design choice: $`\min \sum_{n,d} x_{n,d}\, C_{n,d} \quad \text{s.t.} \quad \sum_{n,d} x_{n,d}\, \mathrm{MW}_d \ge D`$ | `design.evaluate` (enumeration; the MILP replaces it) |
 
-H_a^1 is the first-well hours of activity a from the WCS engine (drilling, tripping, casing and cementing, logging, flat). κ (`time_scale`) scales the WCS hours to the operator's first well. The WCS has almost no flat time, so κ > 1 (see validation V7). μ (`materials_mult`) scales the WCS material quantities to the operator's design.
+$`H_a^1`$ is the first-well hours of activity $`a`$ from the WCS engine (drilling, tripping, casing and cementing, logging, flat). $`\kappa`$ (`time_scale`) scales the WCS hours to the operator's first well. The WCS has almost no flat time, so $`\kappa > 1`$ (see validation V7). $`\mu`$ (`materials_mult`) scales the WCS material quantities to the operator's design.
 
-## Calibration to Fervo's Cape Station (θ = 0.75)
+## Calibration to Fervo's Cape Station ($`\theta = 0.75`$)
 
 `wcsl.calibrate()` runs five auditable steps. The results are in [`reports/calibration/calibration.json`](../reports/calibration/calibration.json).
 
 | Step | What it does | Result |
 |---|---|---|
-| 1. Experience | Monthly drilling, one rig, one project | E = 1.00, 1.93, 2.81, 3.62, 4.38, 5.09 |
-| 2. Learning | Subtract expected trouble days, fit Brett–Millheim to planned days per 1,000 ft | τ1 = 2.30, τ∞ = 1.53 (floor 66 %), k = 1.26, R² 0.93 |
-| 3. Time scale | Observed first-well planned hours ÷ WCS first-well hours | κ = 1.62 |
-| 4. Cost structure | Non-time cost = (1 − θ) × mean cost; WCS materials scaled to match | $1.46M per well; μ = 0.53 (Fervo materials ≈ half the GeoVision design) |
-| 5. Spread rate | Fit s∞, ε, k_s to (cost − non-time cost) / days | s∞ = $157k/day, ε = 0.31, k_s = 0.82, R² 0.89 |
+| 1. Experience | Monthly drilling, one rig, one project | $`E`$ = 1.00, 1.93, 2.81, 3.62, 4.38, 5.09 |
+| 2. Learning | Subtract expected trouble days, fit Brett–Millheim to planned days per 1,000 ft | $`\tau_1 = 2.30`$, $`\tau_\infty = 1.53`$ (floor 66 %), $`k = 1.26`$, $`R^2 = 0.93`$ |
+| 3. Time scale | Observed first-well planned hours ÷ WCS first-well hours | $`\kappa = 1.62`$ |
+| 4. Cost structure | Non-time cost = $`(1 - \theta) \times`$ mean cost; WCS materials scaled to match | \$1.46M per well; $`\mu = 0.53`$ (Fervo materials ≈ half the GeoVision design) |
+| 5. Spread rate | Fit $`s_\infty`$, $`\varepsilon`$, $`k_s`$ to (cost − non-time cost) / days | $`s_\infty`$ = \$157k/day, $`\varepsilon = 0.31`$, $`k_s = 0.82`$, $`R^2 = 0.89`$ |
 
 ![Cost path](../reports/calibration/cost_path.png)
 
@@ -66,7 +66,7 @@ The calibrated model puts **82 %** of the first well's cost on time, falling to 
 
 ![Learning curves](../reports/calibration/learning_curves.png)
 
-| Curve | R² (6 wells) | AIC | Days per 1,000 ft at well 20 |
+| Curve | $`R^2`$ (6 wells) | AIC | Days per 1,000 ft at well 20 |
 |---|---|---|---|
 | Brett–Millheim (floor) | 0.96 | −26.2 | 1.60 (stays at the floor) |
 | Quadratic | 0.94 | −24.1 | 18.2 (turns back up: not physical) |
@@ -78,12 +78,12 @@ Brett–Millheim fits best and is the only curve that stays physical when extrap
 
 | Parameter | Value | Source |
 |---|---|---|
-| Forgetting δ | 0.44 per year | Kellogg (2011), QJE |
-| Different-rig weight ω | 0.4 | Kellogg (2011): 5.2 %/yr vs 13 %/yr learning |
-| Other-project weight γ | 0.5 | Kellogg (2011) |
-| Trouble events, first well λ0 | 1.5 | Illustrative; frequencies in Carson & Lin (c. 1981) |
-| Trouble decay kλ | 0.3 per unit of experience | Illustrative |
-| Trouble duration | Median 1.5 days, σ 0.8 | Illustrative |
+| Forgetting $`\delta`$ | 0.44 per year | Kellogg (2011), QJE |
+| Different-rig weight $`\omega`$ | 0.4 | Kellogg (2011): 5.2 %/yr vs 13 %/yr learning |
+| Other-project weight $`\gamma`$ | 0.5 | Kellogg (2011) |
+| Trouble events, first well $`\lambda_0`$ | 1.5 | Illustrative; frequencies in Carson & Lin (c. 1981) |
+| Trouble decay $`k_\lambda`$ | 0.3 per unit of experience | Illustrative |
+| Trouble duration | Median 1.5 days, $`\sigma = 0.8`$ | Illustrative |
 | Rig move on a pad | 1 day at the spread rate | Assumption |
 | Mobilisation + engineering | $260k per campaign | WCS |
 | Site preparation | $250k per pad | WCS |

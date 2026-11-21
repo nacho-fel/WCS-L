@@ -3,7 +3,7 @@
 For each reservoir depth: the fewest producers giving >= 100 MW net (from depth.py's 12-producer runs),
 injectors = ceil(0.666 x producers); drilling at the flat NREL curve (GEOPHIRES) or the WCS-L campaign
 average (P50) for that many wells, priced for the deeper geometry (vertical depth + lateral; low, central and
-high ROP); plant = supercritical ORC at $1,900/kW, or double flash at GEOPHIRES' correlation.
+high ROP); plant = supercritical ORC at $1,900/kW or at GEOPHIRES' correlation, or double flash at GEOPHIRES' correlation.
 """
 from __future__ import annotations
 import json, math, sys, warnings
@@ -18,7 +18,7 @@ sweep.OUT = sweep.ROOT / "reports" / "geophires" / "depth"
 FT = 1 / 0.3048
 GEOM = {2.68: (8700, None), 3.0: (3000 * FT, 5000), 3.5: (3500 * FT, 5000), 4.0: (4000 * FT, 2000 * FT), 4.5: (4500 * FT, 2000 * FT)}
 ROP = {"low": (50, 35), "central": (75, 50), "high": (100, 60)}
-PLANTS = {"sORC_1900": (2, True), "dflash_corr": (4, False)}
+PLANTS = {"sORC_1900": (2, True), "sORC_corr": (2, False), "dflash_corr": (4, False)}
 TARGET = 100.0
 
 

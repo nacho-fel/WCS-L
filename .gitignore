@@ -7,3 +7,4 @@ __pycache__/
 
 # raw GEOPHIRES sweep runs (regenerate with geophires/sweep.py)
 reports/geophires/sweep/
+reports/geophires/depth/

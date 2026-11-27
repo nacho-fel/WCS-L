@@ -4,7 +4,7 @@ Built on a validated re-implementation of the Sandia Well Cost Simplified model 
 """
 from . import wcs
 from .design import DesignOption, evaluate as evaluate_designs
-from .calibration import Calibration, calibrate, load_fervo
+from .calibration import Calibration, calibrate, calibrate_cape17, load_fervo
 from .experience import experience, steady_state_ceiling
 from .learning import (bm_factor, brett_millheim, fit_brett_millheim, fit_quadratic, fit_wright,
                        learning_rate, wright)

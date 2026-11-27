@@ -205,7 +205,7 @@ def vertical_well(target_m: float = 5000, rop: float = 25, bit: float = 50, **pa
 
 
 def horizontal_well(tvd_ft: float = 8700, lateral_ft: float = 5000, bur: float = 10, rop: float = 25,
-                    bit: float = 50, **params: Any) -> dict[str, Any]:
+                    bit: float = 50, rop_profile: Any = None, **params: Any) -> dict[str, Any]:
     """Horizontal EGS producer: surface casing, production casing through the build, liner in the lateral.
 
     The build ends horizontal at ``tvd_ft``; its measured length is ``tvd + (pi/2 - 1) R`` with
@@ -218,7 +218,20 @@ def horizontal_well(tvd_ft: float = 8700, lateral_ft: float = 5000, bur: float =
           dict(end=end_build + lateral_ft, D=12.25, Dc=9.625, w=39.4, CL=0, log=1, dir=1, mult=dict(cem=0))]
     for g in iv:
         g.update(rop=rop, bit=bit)
+    if rop_profile is not None:
+        _apply_rop_profile(iv, rop_profile, tvd_ft, bur)
     return dict(params=dict(params), intervals=iv)
+
+
+def _apply_rop_profile(iv: list[dict[str, Any]], profile: Any, tvd_ft: float, bur: float) -> None:
+    """Give each interval the constant ROP that drills it in the same on-bottom hours as a ROP that falls
+    with TVD (``wcsl.rop.RopProfile``). Tripping and bit counts then follow from those hours, as in the WCS."""
+    from .rop import horizontal_tvd_of_md
+    f = horizontal_tvd_of_md(tvd_ft, bur)
+    top = 0.0
+    for g in iv:
+        g["rop"] = profile.effective_rop(top, float(g["end"]), f)
+        top = float(g["end"])
 
 
 def lateral_for_md(md_ft: float, tvd_ft: float = 8700, bur: float = 10) -> float:
@@ -243,6 +256,14 @@ def with_params(spec: dict[str, Any], **params: Any) -> dict[str, Any]:
 CAPE_LIKE_PARAMS = dict(bit_mult=2.0, run=800.0, cont=0.10, rig=33500.0, mud0=5000.0)
 
 
-def cape_like_well(md_ft: float | None = None, rop: float = 75, bit: float = 50) -> dict[str, Any]:
+def cape_like_well(md_ft: float | None = None, rop: float = 75, bit: float = 50, rop_profile: Any = None) -> dict[str, Any]:
     lateral = 5000 if md_ft is None else lateral_for_md(md_ft)
-    return horizontal_well(8700, lateral, 10, rop, bit, **CAPE_LIKE_PARAMS)
+    return horizontal_well(8700, lateral, 10, rop, bit, rop_profile=rop_profile, **CAPE_LIKE_PARAMS)
+
+
+def egs_well(tvd_ft: float, lateral_ft: float = 5000, rop_profile: Any = None, bit: float = 50) -> dict[str, Any]:
+    """Cape-like producer (2025 parameters, Fervo Phase I casing) at any reservoir depth, ROP falling with TVD.
+
+    ``rop_profile`` defaults to ``wcsl.rop.BASE``; at 8,700 ft TVD it gives the Cape-like well."""
+    from . import rop as _rop
+    return horizontal_well(tvd_ft, lateral_ft, 10, 75, bit, rop_profile=rop_profile or _rop.BASE, **CAPE_LIKE_PARAMS)

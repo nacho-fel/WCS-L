@@ -8,3 +8,6 @@ __pycache__/
 # raw GEOPHIRES sweep runs (regenerate with geophires/sweep.py)
 reports/geophires/sweep/
 reports/geophires/depth/
+
+# raw GEOPHIRES runs of the depth table (regenerate with studies/depth_table/geo_*.py)
+reports/depth_table/geophires_runs/
